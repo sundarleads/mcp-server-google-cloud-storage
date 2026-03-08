@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "gcs-storage-server": {
+      "type": "stdio",
+      "command": "/Users/yougasundarpanneerselvam/Documents/mcp-server-google-cloud-storage/.venv/bin/python",
+      "args": [
+        "/Users/yougasundarpanneerselvam/Documents/mcp-server-google-cloud-storage/src/mcp-server/gcs_storage_server.py"
+      ],
+      "env": {
+        "GCP_PROJECT_ID": "data-products-sdk-integration",
+        "GCP_KEY_PATH": "/Users/yougasundarpanneerselvam/Documents/mcp-server-google-cloud-storage/creds/data-products-sdk-integration-4388c176a5b5.json"
+      }
+    }
+  }
+}
+
